@@ -1,0 +1,166 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+  font-size: 14px;
+  scroll-behavior: smooth;
+  height: 100vh;
+  /* CSS */
+}
+body button {
+  background-color: #1e2d3b;
+  border: 1px solid #dbdbdb;
+  border-radius: 0.375em;
+  box-shadow: none;
+  color: white;
+  cursor: pointer;
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  height: 2.5em;
+  line-height: 1.5;
+  padding: calc(0.5em - 1px) 1em;
+  text-align: center;
+}
+body button:active {
+  border-color: #4a4a4a;
+  outline: 0;
+}
+body button:focus {
+  border-color: #485fc7;
+  outline: 0;
+}
+body button:hover {
+  border-color: #b5b5b5;
+  background-color: white;
+  color: #363636;
+}
+body button:focus:not(:active) {
+  box-shadow: rgba(72, 95, 199, 0.25) 0 0 0 0.125em;
+}
+body header {
+  height: 80px;
+}
+body header nav {
+  position: fixed;
+  width: 100%;
+  height: 5rem;
+  background-color: #1e2d3b;
+  display: flex;
+  justify-content: space-between;
+}
+body header nav .header-company-name {
+  text-align: center;
+  width: 15%;
+  background-color: #eccc21;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body header nav .header-company-name img {
+  height: 80px;
+  width: 60px;
+}
+body header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-right: 10rem;
+  gap: 50px;
+  list-style: none;
+}
+body header nav ul li a:active {
+  color: #eccc21;
+}
+body header nav ul li a:hover {
+  color: #eccc21;
+}
+body header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+body main {
+  margin: 0 auto;
+  width: 80%;
+  height: 100%;
+}
+body main section {
+  margin: 20px;
+}
+body main section .about-us-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+body main section .about-tab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+body main section .about-tab .active {
+  background-color: whitesmoke;
+  color: black;
+}
+body main section #aboutTab1 {
+  display: block;
+}
+body main section .tabcontent {
+  display: none;
+  border: 0.5px solid transparent;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+  box-shadow: 0 2px 5px 1px rgba(64, 60, 67, 0.16);
+}
+body main section .tabcontent .sub-text {
+  padding-left: 20px;
+}
+body main section .tabcontent .sub-text table {
+  border-collapse: collapse;
+  width: 100%;
+}
+body main section .tabcontent .sub-text table td,
+body main section .tabcontent .sub-text table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+body main section .tabcontent .sub-text p {
+  padding: 10px;
+}
+body main section .tabcontent h2 {
+  margin-bottom: 20px;
+}
+body main section .tabcontent .board-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  padding: 20px;
+}
+body main section .tabcontent .board-card img {
+  height: 300px;
+  width: 300px;
+}
+body main section .tabcontent .board-card .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+body main section .tabcontent .container {
+  padding: 2px 16px;
+}
+body footer {
+  height: 40px;
+  background-color: #1e2d3b;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  bottom: 0px;
+}/*# sourceMappingURL=about.css.map */
